@@ -1,7 +1,7 @@
 {
   "name": "create-serverless-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "bootstrap new Serverless project.",
   "main": "index.js",
   "bin": {
     "create-serverless-project": "index.js"
@@ -10,9 +10,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nir Adler <niradler55@email.com> (https://niradler.com)",
   "license": "ISC",
   "dependencies": {
     "file-system": "^2.2.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/create-serverless-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/create-serverless-project/issues"
+  },
+  "homepage": "https://github.com/niradler/create-serverless-project#readme"
 }
