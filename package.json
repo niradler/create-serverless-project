@@ -1,6 +1,6 @@
 {
   "name": "create-serverless-project",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "bootstrap new Serverless project.",
   "main": "index.js",
   "bin": {
