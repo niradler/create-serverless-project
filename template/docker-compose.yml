@@ -1,0 +1,11 @@
+version: "3.2"
+services:
+  serverless-service:
+    container_name: serverless-service
+    image: niradler/serverless
+    restart: always
+    volumes:
+      - ./:/app
+    ports:
+      - "4000:4000"
+    command: sh -c 'cd app && npm i && npm run start'
